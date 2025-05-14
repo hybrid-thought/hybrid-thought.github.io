@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/png" href="favicon.png">
+        <style>
+            .container {
+                position: relative;
+                text-align: center;
+                color: whitesmoke;
+            }
+            .top {
+                position: absolute;
+                top: 38px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .bottom {
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+            .text {
+                font-family: sans-serif;
+                font-variant: small-caps;
+                font-size: 64pt;
+            }
+        </style>
+        <link rel="icon" type="image/png" href="favicon.png" />
         <title>Hybrid Thought</title>
     </head>
     <body>
-        <img src="htlogo.png" />
+        <div class="container">
+            <a href="https://github.com/hybrid-thought">
+                <img src="htlogo.png" style="width:100%;" />
+            </a>
+            <duv class="top text">Hybrid Thought</duv>
+            <div class="bottom text">Coming Soon</div>
+        </div>
     </body>
 </html>
